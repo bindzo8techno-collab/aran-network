@@ -245,7 +245,7 @@
   const surveillanceProducts: Product[] = [
     {
       id: 'cctv',
-      path: '/products/cctv',
+      path: '/products/cctv-camera-installation-trichy',
       name: 'CCTV Security Systems',
       icon: CameraIcon,
       tagline: 'Uncompromising Clarity for Total Security Surveillance.',
@@ -355,7 +355,7 @@
     },
     {
       id: 'video-door-phone',
-      path: '/products/video-door-phone',
+      path: '/products/video-door-phone-trichy',
       name: 'Video Door Phone',
       icon: HomeModernIcon,
       tagline: 'See, Speak, and Secure Your Front Door from Anywhere.',
@@ -448,7 +448,7 @@
     },
     {
       id: 'vehicle-tracker',
-      path: '/products/vehicle-tracker',
+      path: '/products/gps-vehicle-tracker-trichy',
       name: 'GPS Vehicle Tracker',
       icon: MapPinIcon,
       tagline: 'Real-Time Vehicle Tracking for Total Peace of Mind.',
@@ -542,7 +542,7 @@
     },
     {
       id: 'guard-patrolling',
-      path: '/products/guard-patrolling',
+      path: '/products/guard-patrol-system-trichy',
       name: 'Guard Patrolling System',
       icon: UserGroupIcon,
       tagline: 'Ensuring Accountability, Enhancing Security.',
@@ -639,7 +639,7 @@
   const accessControlProducts: Product[] = [
     {
       id: 'biometrics',
-      path: '/products/biometrics',
+      path: '/products/biometric-access-control-trichy',
       name: 'Biometric Access Control',
       icon: FingerPrintIcon,
       tagline: 'The Future of Secure Identification.',
@@ -746,7 +746,7 @@
     },
     {
       id: 'access-control',
-      path: '/products/access-control',
+      path: '/products/card-access-control-trichy',
       name: 'Card & Mobile Access Control',
       icon: ShieldCheckIcon,
       tagline: 'Complete Control Over Your Premises.',
@@ -852,7 +852,7 @@
     },
     {
       id: 'fingerprint-smart-locks',
-      path: '/products/fingerprint-smart-locks',
+      path: '/products/fingerprint-smart-locks-trichy',
       name: 'Fingerprint Smart Locks',
       icon: FingerPrintIcon,
       tagline: 'Keyless Convenience at Your Fingertips.',
@@ -958,7 +958,7 @@
     },
     {
       id: 'boom-flap-barrier',
-      path: '/products/boom-flap-barrier',
+      path: '/products/boom-barrier-installation-trichy',
       name: 'Boom & Flap Barriers',
       icon: BuildingOffice2Icon,
       tagline: 'Control the Flow, Secure the Perimeter.',
@@ -1068,7 +1068,7 @@
   const alarmSafetyProducts: Product[] = [
     {
       id: 'burglar-alarm',
-      path: '/products/burglar-alarm',
+      path: '/products/burglar-alarm-system-trichy',
       name: 'Burglar Alarm Systems',
       icon: BellAlertIcon,
       tagline: 'Intelligent Protection Against Intruders.',
@@ -1161,7 +1161,7 @@
     },
     {
       id: 'fire-alarm-system',
-      path: '/products/fire-alarm-system',
+      path: '/products/fire-alarm-system-trichy',
       name: 'Fire Alarm System',
       icon: ShieldExclamationIcon,
       tagline: 'Early Detection for Ultimate Protection.',
@@ -1255,7 +1255,7 @@
     },
     {
       id: 'metal-detector',
-      path: '/products/metal-detector',
+      path: '/products/metal-detectors-trichy',
       name: 'Metal Detectors',
       icon: ShieldCheckIcon,
       tagline: 'High-Sensitivity Screening for a Safer Environment.',
@@ -1337,7 +1337,7 @@
     },
     {
       id: 'acousto-magnetic-eas',
-      path: '/products/acousto-magnetic-eas',
+      path: '/products/eas-anti-theft-system-trichy',
       name: 'Acousto Magnetic (EAS) Systems',
       icon: ShieldCheckIcon,
       tagline: 'Protecting Your Merchandise, Preventing Loss.',
@@ -1447,7 +1447,7 @@
   const communicationProducts: Product[] = [
     {
       id: 'intercom-system',
-      path: '/products/intercom-system',
+      path: '/products/intercom-systems-trichy',
       name: 'Intercom Systems',
       icon: PhoneIcon,
       tagline: 'Seamless Communication for Secure Access.',
@@ -1553,7 +1553,7 @@
     },
     {
       id: 'walkie-talkie',
-      path: '/products/walkie-talkie',
+      path: '/products/walkie-talkies-trichy',
       name: 'Walkie-Talkies',
       icon: ChatBubbleLeftRightIcon,
       tagline: 'Instant Communication, Unbreakable Connection.',
@@ -1646,7 +1646,7 @@
     },
     {
       id: 'public-address-voice-alarm',
-      path: '/products/public-address-system',
+      path: '/products/public-address-voice-alarm-system-trichy',
       name: 'Public Address & Voice Alarm',
       icon: SpeakerWaveIcon,
       tagline: 'Clarity in Communication, Certainty in Safety.',
@@ -1731,7 +1731,7 @@
   const smartITProducts: Product[] = [
     {
       id: 'home-automation-systems',
-      path: '/products/home-automation',
+      path: '/products/home-automation-systems-trichy',
       name: 'Home Automation Systems',
       icon: HomeModernIcon,
       tagline: 'Smart Living, Simplified.',
@@ -1837,7 +1837,7 @@
     },
     {
       id: 'digital-signage',
-      path: '/products/digital-signage',
+      path: '/products/digital-signage-solutions-trichy',
       name: 'Digital Signage Solutions',
       icon: PlayIcon,
       tagline: 'Dynamic Displays to Captivate Your Audience.',
@@ -1944,7 +1944,7 @@
     },
     {
       id: 'it-products',
-      path: '/products/it-products',
+      path: '/products/it-networking-products-trichy',
       name: 'IT & Networking Products',
       icon: CogIcon,
       tagline: 'The Foundation for Your Digital Success.',
