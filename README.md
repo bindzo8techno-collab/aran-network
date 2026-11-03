@@ -17,8 +17,11 @@ The app is available at [http://localhost:3000](http://localhost:3000).
 
 - `pnpm dev` — start the development server
 - `pnpm lint` — run ESLint
-- `pnpm build` — create a production build
-- `pnpm start` — serve the production build
+- `pnpm build` — generate the static site in `out/`
+
+Deploy the contents of `out/` to any static web host. The site does not require
+a Node.js server at runtime. Configure any required URL redirects with your
+static host, as Next.js redirects are not available in static exports.
 
 ## Routes
 

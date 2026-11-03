@@ -5,6 +5,7 @@ import { cn } from "@/lib/utils";
 import JsonLd from "@/components/JsonLd";
 import SiteShell from "@/components/SiteShell";
 import { SITE_NAME, SITE_URL } from "@/lib/seo";
+import { GoogleAnalytics, GoogleTagManager } from '@next/third-parties/google'
 
 const inter = Inter({ subsets: ["latin"], variable: "--font-inter" });
 
@@ -43,6 +44,7 @@ export default function RootLayout({
 }: Readonly<{ children: React.ReactNode }>) {
   return (
     <html lang="en" className={cn("font-sans", inter.variable)}>
+    <GoogleTagManager gtmId={process.env.GTM_ID!} />
       <body>
         <JsonLd
           data={{
@@ -78,6 +80,7 @@ export default function RootLayout({
         />
         <SiteShell>{children}</SiteShell>
       </body>
+      <GoogleAnalytics gaId={process.env.GA_MEASUREMENT_ID!} />
     </html>
   );
 }
